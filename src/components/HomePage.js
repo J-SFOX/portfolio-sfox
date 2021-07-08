@@ -13,12 +13,12 @@ const HomePage = () =>{
 
                 <ul>
                     <li>
-                        <a href="http://twitter.com/" target="_blank" rel="noopener noreferrer"> 
+                        <a href="https://twitter.com/SoufianeJemmal" target="_blank" rel="noopener noreferrer"> 
                             <FaTwitter/>
                         </a>
                     </li>
                     <li>
-                        <a href="http://github.com/"target="_blank" rel="noopener noreferrer"> 
+                        <a href="https://github.com/J-SFOX/"target="_blank" rel="noopener noreferrer"> 
                             <FaGithub/>
                         </a>
                     </li>
