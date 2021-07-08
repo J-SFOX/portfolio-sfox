@@ -5,11 +5,11 @@ import { navbar  } from "../data/navbar";
 
 const Menu =()=>{
     const [isOpen,setIsOpen] = useState(false);
-    const [links, setLinks] = useState(navbar)
+    const [links, setLinks] = useState(navbar);
     return(
         <>
             <div className="menu-btn">
-                <button onClick={()=>setIsOpen(!isOpen)}>
+                <button className={ window.location.pathname !== "/" ? "black":"white"} onClick={()=>setIsOpen(!isOpen)}>
                     <BiMenuAltRight/>
                 </button>
             </div>
