@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {projects} from "../data/projects";
 
-import {FaGithub, FaTwitter,FaVideo} from "react-icons/fa";
+import {FaGithub,FaVideo} from "react-icons/fa";
 
 
 const Projects = () =>{
@@ -24,7 +24,7 @@ const Projects = () =>{
                                 </li>
                                 <li>
                                     <a href={demo} target="_blank" rel="noopenner noreferrer" className="demo">
-                                        <FaVideo style={{marginRight :5}} /> Demo
+                                        <FaVideo style={{marginRight :5}}  /> Demo
                                     </a>
                                 </li>
                             </ul>
