@@ -8,6 +8,7 @@ import Error from "./Pages/Error";
 //Pages 
 import Projects from "./Pages/Projects";
 import ContactMe from "./Pages/ContactMe";
+import AboutMe from "./Pages/AboutMe";
 
 
 import './App.css';
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/about-me">
+          <AboutMe />
         </Route>
         <Route path="/contact-me">
           <ContactMe />

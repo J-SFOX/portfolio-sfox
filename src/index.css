@@ -1,5 +1,5 @@
 :root{
-  --background-image: linear-gradient(120deg, hsl(169,100%,35%), rgba(1, 84, 69, 0.67) );
+  --background-image: linear-gradient(200deg,rgba(23, 23,23,0.5),#000);
   --background-overlay: rgba(0,0,0,0.4);
 }
 
@@ -9,6 +9,13 @@
   margin :0;
   padding:0;
   box-sizing:border-box;
+}
+
+.black{
+  color:black
+}
+.white{
+  color:white;
 }
 
 ul{
@@ -42,7 +49,7 @@ a{
 .menu-btn button{
   background-color: transparent;
   font-size: 36px;
-  color:#fff;
+  /* color:#fff; */
   border:none;
   cursor: pointer;
 }
@@ -124,13 +131,13 @@ a{
 
 /* Contacts */
 .contacts{
-  background-image:var(--background-image) ;
+  background-color: white ;
   height:100vh;
 }
 
 .contacts h1{
   padding: 50px 80px;
-  color:#fff;
+  color:black;
 }
 
 .contacts ul{
@@ -147,16 +154,19 @@ a{
 
 .contacts ul li a {
   font-size:30px;
+  color :black;
+  
 }
 
 /* projects */
 .projects{
-  background-image: var(--background-image);
+  background-color: white;
+  /* color:white */
 }
 
 .projects h1{
   padding: 50px 80px;
-  color:#fff;
+  color:#000;
 }
 
 .projects .cards{
@@ -165,7 +175,7 @@ a{
   max-width: 1100px;
   margin:auto;
   gap:20px;
-  color:#fff;
+  color:black;
   padding-bottom:20px;
 
 }
